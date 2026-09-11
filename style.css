@@ -1,0 +1,17 @@
+body {
+    background-color: #f8f9fa;
+}
+
+/* Force l'affichage de l'image locale en arrière-plan du panneau gauche */
+.col-lg-6.d-none.d-lg-flex {
+    background: linear-gradient(rgba(10, 37, 64, 0.9), rgba(10, 37, 64, 0.9)), 
+                url('fond-bureau.jpg') !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+/* Ajustements esthétiques des champs */
+.form-control, .input-group-text {
+    border-color: #e2e8f0 !important;
+}
+
